@@ -1,0 +1,79 @@
+/* start hero sec */
+
+.hero_section .hero_sec{
+    /* height: 100vh; */
+    height: 614px;
+    background-image: url(images/bg_hero.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero_section .see_menu_btn {
+    color: white;
+    background-color: #7d4402;
+    text-decoration: none;
+    padding: 10px 40px;
+}
+.mb_20 {
+    margin-bottom: 40px;
+}
+/* end hero sec */
+
+/* start simply sec */
+.simply_section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.simply_parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simply_img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.simply_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.nesting_p {
+    text-align: center;
+    width: 50%;
+}
+/* end simply sec */
+
+h3 {
+    line-height: 14px;
+    text-align: center;
+    font-size: 40px;
+    color: #3f2201;
+    font-weight: 500;
+}
+
+.simply_text p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.hr {
+    width: 15%;
+    height: 1px;
+    background-color: #7d4402;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.video_sec {
+    width: 100%;
+}
